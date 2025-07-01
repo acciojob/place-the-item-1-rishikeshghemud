@@ -1,2 +1,29 @@
 
 /* Your CSS Code here. */
+
+.holder {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 500px;
+}
+
+.item {
+	width: 80px;
+	height: 80px;
+	font-size: 1.7rem;
+}
+
+.red {
+	background-color: red;
+	order: 5;
+}
+
+.blue {
+	background-color: blue;
+	order: 6;
+}
+
+.green {
+	background-color: green;
+}
